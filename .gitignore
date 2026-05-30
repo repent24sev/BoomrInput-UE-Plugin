@@ -1,0 +1,52 @@
+# Unreal Engine 5 GitIgnore
+# See: https://github.com/github/gitignore/blob/main/UnrealEngine.gitignore
+
+# Compiled binaries and build artifacts
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+Script/
+
+# Package folders
+Build/
+Dist/
+
+# Local configuration files
+Config/DefaultEditorPerProjectUserSettings.ini
+Config/DefaultEditorSettings.ini
+
+# Visual Studio files
+.vs/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.doccache
+*.opendb
+*.db
+*.vsconfig
+
+# VS Code files
+.vscode/
+
+# Rider files
+.idea/
+
+# macOS files
+.DS_Store
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Plugins
+# If you want to include plugin source but exclude binaries
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Xcode project files (if on Mac)
+*.xcodeproj
+*.xcworkspace
